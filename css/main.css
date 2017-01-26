@@ -6,17 +6,18 @@
 
 
 
+.navbar{
+  font-family: 'Playfair Display', serif;
+}
 
+body{
+  font-family: 'Fira Sans Condensed', sans serif;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.jumbotron{
+  color: white;
+  background-image: url("../img/office-625893_1280.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}

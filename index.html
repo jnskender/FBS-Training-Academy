@@ -13,15 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300|Playfair+Display:400,400i" rel="stylesheet">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -30,98 +22,78 @@
 
 <body>
     <!--Star navigation Bar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class='navbar-header'>
-                <a class="navbar-brand" href="#">Fit Boss Squad Academy</a>
+            <div class="navbar-header">
+                <a href="#" class="navbar-left"><img id="logo" src="img/FIT BOSS.png"></a>
             </div>
-            </ul>
         </div>
     </nav>
     <!--End Navigation Bar-->
 
     <!--Start JumboTron-->
-
     <div class="jumbotron">
-        <div class="container">
+    </div>
+    <!--End jumbotron-->
+
+    <div class="container hidden" id="video">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="youtubeVideo" width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--End IFrame-->
+
+    <div class="container">
+        <div class="row">
             <center>
-                <h1>Fitboss Squad Training</h1>
+                <a target="_blank" href="http://tinyurl.com/FBSHandbook" class="btn btn-lg btn-primary" id="downloadPDFBtn"><span class="glyphicon glyphicon-download-alt"></span> New Coach Handbook</a>
             </center>
         </div>
     </div>
-    <!--End jumbotron-->
-<div class="container">
-    <div class= "row">
-      <center>
-      <h3>Sample</h3>
-    </center>
-    </div>
-</div>
-  <div class= "row"></div>
     <div class="container">
-        <div class="col-md-4 thumb training1">
-            <a class="thumbnail" href="training1.html">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+        <div class="row">
+            <center>
+                <div class="col-sm-4 thumb">
+                    <img class="img-responsive thumbnail" id="1" src="img/lesson one.png" alt="">
+                </div>
+                <div class="col-sm-4 thumb">
+                    <img class="img-responsive thumbnail" id="2" src="img/lesson two.png" alt="">
+                </div>
+                <div class="col-sm-4 thumb">
+                    <img class="img-responsive thumbnail" id="3" src="img/lesson three.png" alt="">
+                </div>
+        </div>
+        <div class="row"></div>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="4" src="img/lesson four.png" alt="">
             </a>
         </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="5" src="img/lesson five.png" alt="">
         </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="6" src="img/lesson six.png" alt="">
         </div>
-
-        <div class= "row"></div>
-
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="row"></div>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="7" src="img/lesson seven.png" alt="">
         </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="8" src="img/lesson eight.png" alt="">
         </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="9" src="img/lesson nine.png" alt="">
         </div>
-
-        <div class= "row"></div>
-
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
+        <div class="row"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 thumb">
+            <img class="img-responsive thumbnail" id="10" src="img/lesson ten.png" alt="">
         </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
-        </div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
-        </div>
-
-        <div class= "row"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-            </a>
-        </div>
-        <div class="col-md-4"></div>
-        <div class= "row"></div>
+        <div class="col-sm-4"></div>
+        <div class="row"></div>
+        </center>
     </div>
-<!-- End Thumbnails -->
+    <!-- End Thumbnails -->
 
 
 
@@ -140,7 +112,7 @@
     <script src="js/vendor/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
-
+    <script src="js/vendor/jquery.cookie.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function(b, o, i, l, e, r) {

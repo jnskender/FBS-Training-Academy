@@ -2,25 +2,66 @@
    Author's custom styles
    ========================================================================== */
 
-.navbar {
-    font-family: 'Playfair Display', serif;
-}
-
 body {
     font-family: 'Fira Sans Condensed', sans serif;
-}
-
-.jumbotron {
-    background-image: url("../img/office-625893_1280.jpg");
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-}
-
-.video-page {
-    background: url("../img/rockywall.png") no-repeat center center fixed;
+    background-color: #ECDCD6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+h2 span {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    width: 350;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    max-height: 75px;
+}
+
+.jumbotron {
+    background-image: url("../img/training.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    color: black;
+}
+
+.thumbnail {
+    margin-top: 1em;
+    background-color: #fff;
+    padding: 4px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.right-side-btn{
+  position: fixed;
+  top: .5em;
+  right: 1em;
+}
+
+#logo {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 75px;
 }
